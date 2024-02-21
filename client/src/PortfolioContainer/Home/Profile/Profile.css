@@ -5,7 +5,7 @@
   justify-content: center;
   height: 10%;
   min-height: fit-content;
-  
+  /* background-image: url("../../../assets/Home/bg4.jpg"); */
 }
 .profile-parent {
   display: flex;
@@ -13,7 +13,7 @@
   color: aliceblue;
 }
 .profile-details-name {
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Poppins SemiBold";
 }
 .profile-details-role {
@@ -35,6 +35,12 @@
   font-size: 19px;
   margin: 5px 20px 0 0;
   font-family: "Lucida Grande";
+}
+.btn.primary-btn {
+  font-size: 14px; 
+}
+.btn.highlighted-btn {
+  font-size: 14px; 
 }
 .profile-options .highlighted-btn {
   margin: 0 0 0 28px;
@@ -82,10 +88,10 @@
         margin: 0 0px 0 60px;
     }
     .profile-details-name{
-        font-size: 20px;
+        font-size: 50px;
     }
     .profile-details-role .primary-text{
-        font-size: 12px;
+        font-size: 20px;
     }
     .profile-options .btn{
         width: 120px;
@@ -97,27 +103,39 @@
 /*For IPhone*/
 @media screen and (max-width: 910px){
     .profile-picture{
-        height: 300px;
-        width: 300px;
-        margin: 0 0 0 4px;
+        height: 180px;
+        width: 180px;
+        margin: 0 auto;
+    }
+    .profile-details-name{
+      font-size: 22px;
+    }
+    .profile-details-role h1 {
+      font-size: 18px;
+      font-family: "Poppins Light";
+    }
+    .profile-role-tagline {
+      font-size: 15px;
+      margin: 5px 20px 0 0;
+      font-family: "Lucida Grande";
     }
 }
 
 /*For xx*/
 @media screen and (max-width: 810px){
     .profile-picture {
-        margin: 0 !important;
+        margin: 0 auto;
     }
     .profile-parent{
         flex-direction: column-reverse;
-        margin: 40px 0 0 0;
+        margin: 20px 0;
     }
     .profile-options{
         display: flex;
         justify-content: space-between;
     }
     .profile-details{
-        margin: 25px 0 0;
+        margin: 20px 0;
     }
     .profile-options .highlighted-btn{
         margin: 0 !important;
@@ -126,11 +144,11 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     .profile-picture{
         height: 275px;
         width: 275;
-        margin-top: -90px;
+        margin-top: -0;
     }
     .profile-details{
         width: 90%;
