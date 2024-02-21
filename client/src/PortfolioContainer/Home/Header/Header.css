@@ -25,7 +25,7 @@
 .show-hamburger-options {
     left: 0;
     opacity: 1;
-    transform: translateX(0%); /* Add this to actually transform the element */
+    transform: translateX(0%); /* transform the element */
   }
 .header-option {
   font-size: 16px;
@@ -41,7 +41,7 @@
   color: var(--white);
 }
 .selected-header-option {
-  color: #ff5823;
+  color: var(--dark-orange);
 }
 
 @media only screen and (max-width: 1110px) {
