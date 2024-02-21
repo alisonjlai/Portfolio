@@ -22,7 +22,7 @@
   margin: 14px 0 24px 0;
 }
 .profile-details-role h1 {
-  font-size: 35px;
+  font-size: 40px;
   font-family: "Poppins Light";
 }
 .primary-text {
@@ -41,7 +41,7 @@
 }
 .profile-options .highlighted-btn:hover {
   margin: 0 0 0 28px;
-  background-color: cornsilk;
+  background-color: rgb(254, 252, 154);
   color: #111;
 }
 .profile-picture {
