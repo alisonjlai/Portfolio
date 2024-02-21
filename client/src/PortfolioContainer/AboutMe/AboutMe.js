@@ -22,7 +22,7 @@ export default function AboutMe(props) {
         "Building RESTful API",
         "Managing database",
       ],
-      heading: "Here are a Few Highlights:",
+      heading: "Here are a few highlights:",
     },
   };
   const renderHighlight = () => {
