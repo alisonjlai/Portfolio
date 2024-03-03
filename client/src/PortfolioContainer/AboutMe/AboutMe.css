@@ -17,7 +17,7 @@
     border-radius: 20px;
 }
 .about-me-profile {
-    width: 50%;
+    width: 40%;
     background-image: url("../../assets/AboutMe/me.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,19 +50,22 @@
     font-family: "Poppins Medium";
 }
 .highlight-blob{
-    height: 12px;
+    height: 10px;
     width: 12px;
     margin: 0 10px 0 0;
     background-color: #ff5823;
     border-radius: 50%;
 }
 .about-me-options .highlighted-btn{
-    margin: 0 0 0 30px;
+    margin: 0 0 0 15px;
 }
 /*IPad Pro responsiveness*/
 @media only screen and (max-width: 1110px) {
     .about-me-parent{
         width: 88%;
+    }
+    .about-me-card {
+        width: 100%;
     }
 }
 @media only screen and (max-width: 898px) {
@@ -70,6 +73,9 @@
         display: none;
     }
     .about-me-details{
+        width: 100%;
+    }
+    .about-me-card {
         width: 100%;
     }
 }
@@ -83,5 +89,35 @@
     }
     .about-me-options button {
         width: 100%;
+    }
+    .about-me-card {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .about-me-options {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-options button {
+        margin-top: 0;
+        padding: 2%;
+        width: 100%;
+    }
+
+    .about-me-highlights {
+        margin: 30px 0;
+    }
+    .highlght-heading {
+        font-family: "Poppins Bold";
+        font-size: 15px;
+        margin: 0 0 0 0;
+    }
+    .highlight {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 0;
+        font-family: "Poppins Medium";
     }
 }

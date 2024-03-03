@@ -65,7 +65,7 @@ export default function Header() {
           </div>
           <div className="header-logo">
             {/* <img src=''></img> */}
-            <span>LAI</span>
+            <span>reLAIance</span>
           </div>
           <div
             className={
