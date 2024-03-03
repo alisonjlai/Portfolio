@@ -22,11 +22,6 @@
   align-items: center;
   transition: all 0.5s ease-out;
 }
-.show-hamburger-options {
-    left: 0;
-    opacity: 1;
-    transform: translateX(0%); /* transform the element */
-  }
 .header-option {
   font-size: 16px;
   cursor: pointer;
@@ -58,7 +53,7 @@
     padding: 0 40px;
     position: relative;
   }
-  .header-options{
+  .header-options {
     display: flex;
     flex-direction: column;
     position: absolute;
