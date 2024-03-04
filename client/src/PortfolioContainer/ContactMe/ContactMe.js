@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 // import imgBack from "../../../src/images/mailz.jpeg";
 import load1 from "../../../src/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
@@ -69,10 +69,8 @@ export default function ContactMe(props) {
         <div className="col">
           <h2 className="title">
             {" "}
-            <Typical
-              // loop={Infinity}
-              steps={["Get me involved 📧", 3000]}
-            />
+            Get me involved 📧
+            
           </h2>
           <a href="https://www.linkedin.com/in/laijy/">
             <i className="fa fa-linkedin-square"></i>
