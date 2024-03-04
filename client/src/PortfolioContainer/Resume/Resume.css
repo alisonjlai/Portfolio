@@ -142,7 +142,7 @@
     text-align: justify;
 }
 
-#education {
+.education {
     justify-content: center;
     .resume-heading {
         display: flex;

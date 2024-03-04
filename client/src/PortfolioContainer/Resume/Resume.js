@@ -42,8 +42,8 @@ function Resume(props) {
 
     /* STATIC RESUME DATA FOR THE LABELS*/
     const resumeBullets = [
-        { label: "Personal Projects", logoSrc: "projects.svg" },
-        { label: "Education background", logoSrc: "education.svg" },
+        { label: "Projects", logoSrc: "projects.svg" },
+        { label: "Education", logoSrc: "education.svg" },
         { label: "Programming Skills", logoSrc: "programming-skills.svg" },
         { label: "Work Experience", logoSrc: "work-history.svg" },
     ];
@@ -71,9 +71,9 @@ function Resume(props) {
         {
             title: "Personal Portfolio Website",
             duration: { fromDate: "Mar. 2023", toDate: "Apr. 2023" },
-            description: "An Intuitive and interactive personal portfolio website to showcase my background; This website!",
+            description: "A responsive personal portfolio website to showcase my skills and background.",
             subHeading: "Built with React JS, Bootstrap, RxJS, Node JS",
-            link: "https://github.com/mereluo/portfoliomere",
+            link: "https://github.com/alisonjlai/Portfolio",
         },
         {
             title: "StoryLand (Online Story Book)",
@@ -101,9 +101,9 @@ function Resume(props) {
 
         /* EDUCATION */
         <div className="resume-screen-container" key="education" id="education">
-            <ResumeHeading heading={"Northeastern University-Seattle Campus"} subHeading={"Master of Science in Computer Science"} fromDate={"2023"} toDate={"2025"} description={"GPA: 4.0/4.0"} />
-            <ResumeHeading heading={"Seattle University"} subHeading={"Certificate in Computer Science"} fromDate={"2022"} toDate={"2023"} description={"GPA: 4.0/4.0"} />
-            <ResumeHeading heading={"University of Washington-Seattle"} subHeading={"Master in Measurement and Statistics"} fromDate={"2019"} toDate={"2022"} description={"GPA: 3.9/4.0"} />
+            <ResumeHeading heading={"Northeastern University - Seattle"} subHeading={"MS in Computer Science"} fromDate={"2023"} toDate={"2026"} description={"GPA: 4.0/4.0"} />
+            <ResumeHeading heading={"Middlebury Institute of International Studies at Monterey"} subHeading={"MA in Localization Project Management and Translation"} fromDate={"2020"} toDate={"2023"} description={"GPA: 3.9/4.0"} />
+            {/* <ResumeHeading heading={"University of Washington-Seattle"} subHeading={"Master in Measurement and Statistics"} fromDate={"2019"} toDate={"2022"} description={"GPA: 3.9/4.0"} /> */}
         </div>,
 
         /* PROGRAMMING SKILLS */
