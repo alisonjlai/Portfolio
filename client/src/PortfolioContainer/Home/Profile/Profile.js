@@ -2,6 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css";
+// import 'font-awesome/css/font-awesome.min.css';
 
 export default function Profile() {
   return (

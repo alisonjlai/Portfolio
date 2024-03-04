@@ -50,7 +50,11 @@ export default function ContactMe(props) {
             } else if (res.status === 200) {
                 setBanner(res.data.msg)
                 toast.success(res.data.msg)
-                setBool (true)
+                setBool (false)
+
+                setName("")
+                setEmail("")
+                setMessage("")
             }
         } catch(error) {
             console.log(error)
@@ -87,12 +91,12 @@ export default function ContactMe(props) {
             </div> */}
             <form onSubmit={submitForm}>
                 <p>{banner}</p>
-                <label htmlFor='name'>Name</label>
+                <label htmlFor='name'>Your Name</label>
                 <input type='text' 
                 onChange={handleName}
                 value={name}/>
 
-                <label htmlFor='email'>Email</label>
+                <label htmlFor='email'>Your Email</label>
                 <input type='email' 
                 onChange={handleEmail} value={email}/>
 
