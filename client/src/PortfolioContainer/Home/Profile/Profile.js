@@ -9,7 +9,7 @@ export default function Profile() {
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          <div className="colz">
+          {/* <div className="colz">
             <div className="colz-icon">
               <a href="https://www.linkedin.com/in/laijy/">
                 <i className="fa fa-linkedin-square" />
@@ -21,7 +21,7 @@ export default function Profile() {
                 <i className="fa fa-instagram" />
               </a>
             </div>
-          </div>
+          </div> */}
 
           <div className="profile-details-name">
             <span className="primary-text">
