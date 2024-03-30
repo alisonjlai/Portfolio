@@ -70,10 +70,10 @@ function Resume(props) {
         },
         {
             title: "Personal Portfolio Website",
-            duration: { fromDate: "Mar. 2023", toDate: "Apr. 2023" },
+            duration: { fromDate: "Mar. 2024", toDate: "Mar. 2024" },
             description: "A responsive personal portfolio website to showcase my skills and background.",
             subHeading: "Built with React JS, Bootstrap, RxJS, Node JS",
-            link: "https://github.com/alisonjlai/Portfolio",
+            link: "https://github.com/lai-jy/Portfolio",
         },
         {
             title: "StoryLand (Online Story Book)",
