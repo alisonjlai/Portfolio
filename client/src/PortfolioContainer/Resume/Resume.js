@@ -62,32 +62,32 @@ function Resume(props) {
 
     const projectsDetails = [
         {
-            title: "Face Identifier",
-            duration: { fromDate: "Jun. 2023", toDate: "Jul. 2023" },
-            description: "Developed a secure full-stack web app that enabled user registration, login, and accurate detection of multiple faces from picture URLs using the Clarifai API; Employed PostgreSQL for efficient user data storage and retrieval; designed robust database tables and implemented a RESTful API using Express.js",
-            subHeading: "Built with JavaScript, PostgreSQL, Express.js",
-            link: "https://github.com/mereluo/face-identifier",
+            title: "Temperature Monitoring System",
+            duration: { fromDate: "Jan. 2024", toDate: "Apr. 2024" },
+            description: "Integrated Amazon DynamoDB database and AWS hosting; developed Python AWS Lambda functions for scalable API endpoints; created a dashboard in JavaScript and React for real-time temperature and air quality data, interactive graphs, and dataset downloads.",
+            subHeading: "Built with AWS, DynamoDB, JavaScript, React.js, Node.js",
+            link: "https://github.com/lai-jy/ProjectHotSauce",
         },
         {
             title: "Personal Portfolio Website",
-            duration: { fromDate: "Mar. 2024", toDate: "Mar. 2024" },
+            duration: { fromDate: "Feb. 2024", toDate: "Mar. 2024" },
             description: "A responsive personal portfolio website to showcase my skills and background.",
-            subHeading: "Built with React JS, Bootstrap, RxJS, Node JS",
-            link: "https://github.com/lai-jy/Portfolio",
+            subHeading: "Built with React.js, Bootstrap, RxJS, Node.js",
+            link: "https://github.com/lai-jy/portfolio-website",
         },
         {
-            title: "StoryLand (Online Story Book)",
-            duration: { fromDate: "Feb. 2023", toDate: "Mar. 2023" },
+            title: "Gesture Based Music Notation System",
+            duration: { fromDate: "Nov. 2023", toDate: "Dec. 2023" },
             description: "A web-based application powered by OpenAI to generate personalized stories with illustrations for children of age 5-10",
             subHeading: "Built with React JS, OpenAI API",
             link: "https://github.com/mereluo/TeachMe",
         },
         {
-            title: "SeattleBot",
-            duration: { fromDate: "Dec. 2022", toDate: "Jan. 2023" },
-            description: "A Facebook messenger bot reports real-time Seattle weather and recommends Seattle restaurants based on user cuisine preferences; Deployed and maintained the bot's functionality and security through GitHub CI/CD actions, Docker, and DigitalOcean",
-            subHeading: "Built with Python, FastAPI, Docker, DigitalOcean",
-            link: "https://github.com/GaryHo34/SeattleBot",
+            title: "Gomoku Game",
+            duration: { fromDate: "Nov. 2023", toDate: "Dec. 2023" },
+            description: "Created an intuitive music notation editor with gesture recognition for user-friendly score creation and real-time editing, adhering to Object Oriented Design principles.",
+            subHeading: "https://github.com/lai-jy/music-notation-system",
+            link: "https://github.com/lai-jy/gomoku",
         },
     ];
 
@@ -122,23 +122,26 @@ function Resume(props) {
         /* WORK EXPERIENCE */
         <div className="resume-screen-container" key="work-experience">
             <div className="experience-container">
-                <ResumeHeading heading={"Teaching Assistant"} subHeading={"Seattle University"} fromDate={"2022"} toDate={"2023"} />
+                <ResumeHeading heading={"Graduate Research Assistant"} subHeading={"Middlebury Institute of International Studies"} fromDate={"2022"} toDate={"2023"} />
                 <div className="experience-description">
-                    <span className="resume-description-text">Teaching Assistant for CPSC 5001 and CPSC 5002: Programming Boot Camp I and II, teaching Java programming </span>
+                    <span className="resume-description-text">- Compiled datasets totaling 19,000+ segments from BBCs Series subtitles for domain specific training, boosting
+model accuracy and consistency. </span>
                     <br />
-                    <span className="resume-description-text">- Provided thorough and constructive feedback on assignments, maintaining consistent grading standards</span>
+                    <span className="resume-description-text">- Enhanced translation and interpretation model via systematic clean up and alignment of text data, leveraging
+tools like SDL Trados and Olifant for process optimization.</span>
                     <br />
-                    <span className="resume-description-text">- Conducted individual and group tutoring sessions, clarifying programming concepts and troubleshooting coding challenges</span>
+                    <span className="resume-description-text">- Conducted training with Microsoft Custom Translator and SYSTRAN, raised BLEU score (evaluation of
+machine translated text) by 3.09.</span>
                 </div>
             </div>
             <div className="experience-container">
-                <ResumeHeading heading={"Graduate Research Assistant"} subHeading={"University of Washington"} fromDate={"2020"} toDate={"2022"} />
+                <ResumeHeading heading={"Program Manager"} subHeading={"Wonderful Sky Financial Group Limited, Hong Kong"} fromDate={"2021"} toDate={"2021"} />
                 <div className="experience-description">
-                    <span className="resume-description-text">Collaborated with UW Computer Science department and Educational Testing Service (ETS) on math and programming education research </span>
+                    <span className="resume-description-text">- Managed translation projects keeping to both time and budget set up and monitored production schedule. </span>
                     <br />
-                    <span className="resume-description-text">- Analyzed extensive keystroke data from 220 undergraduate students‘ programming assignments</span>
+                    <span className="resume-description-text">- Delivered high quality machine translated/post edited texts and updated term bases for system consistency.</span>
                     <br />
-                    <span className="resume-description-text">- Utilized data visualization tools, such as Python libraries (e.g., Matplotlib, Seaborn), to facilitate easier interpretation and communication of findings</span>
+                    <span className="resume-description-text">- Collabrated with tech teams and clients, fostering communication between all parties. </span>
                 </div>
             </div>
         </div>,
